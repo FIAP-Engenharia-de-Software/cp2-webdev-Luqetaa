@@ -10,9 +10,23 @@
 // - Executar a operação correta e retornar o resultado;
 
 function calcular(num1, num2, operador) {
-  // TODO: implementar função
+  let resultado
+  if (operador == "+")
+    resultado = num1 + num2
+  if (operador == "-")
+    resultado = num1 - num2
+  if (operador == "*")
+    resultado = num1 * num2
+  if (operador == "/")
+    resultado = num1 / num2
+  // if (num1 || num2 != )
+  //   return "Erro: parâmetros inválidos"
+  // if (operador == "/" || num1 == 0 && num2 == 0)
+  //   return "Erro: divisão por zero"
+  // if (operador != "+" && "-" && "/" && "*")
+  //   resultado = "Erro: operação inválida"
+  return resultado
 }
-
 
 //NÃO REMOVA O CÓDIGO ABAIXO
 module.exports = { calcular };
